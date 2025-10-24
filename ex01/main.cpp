@@ -6,7 +6,7 @@
 /*   By: mpierant <marvin@student.42roma.it>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 07:43:30 by mpierant          #+#    #+#             */
-/*   Updated: 2025/10/24 08:12:02 by mpierant         ###   ########.fr       */
+/*   Updated: 2025/10/24 08:39:26 by mpierant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,5 +28,5 @@ int main(void)
         ptr[i].announce();
         i++;
     }
-    delete  ptr;
+    delete[]  ptr;
 }
