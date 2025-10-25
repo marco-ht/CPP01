@@ -1,5 +1,5 @@
 # Nome del progetto
-NAME    = program
+NAME    = sed
 
 # Compiler e flags
 CC      = c++

@@ -1,5 +1,5 @@
 # Nome del progetto
-NAME    = program
+NAME    = moar_brainz
 
 # Compiler e flags
 CC      = c++
