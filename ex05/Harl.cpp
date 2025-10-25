@@ -6,7 +6,7 @@
 /*   By: mpierant <marvin@student.42roma.it>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/25 03:07:53 by mpierant          #+#    #+#             */
-/*   Updated: 2025/10/25 05:34:15 by mpierant         ###   ########.fr       */
+/*   Updated: 2025/10/25 05:43:48 by mpierant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,3 +54,9 @@ void    Harl::complain( std::string level )
 
 /* typedef void (Harl::*Complains)();
 Complains complains[4] = {&Harl::debug, &Harl::info, &Harl::warning, &Harl::error}; */
+
+/*
+
+https://stackoverflow.com/questions/43205893/array-of-pointers-on-member-functions-of-current-class?noredirect=1&lq=1
+
+*/
