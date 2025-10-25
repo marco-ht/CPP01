@@ -1,30 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   HumanA.hpp                                         :+:      :+:    :+:   */
+/*   Harl.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mpierant <marvin@student.42roma.it>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/24 22:47:50 by mpierant          #+#    #+#             */
-/*   Updated: 2025/10/25 03:06:07 by mpierant         ###   ########.fr       */
+/*   Created: 2025/10/25 02:58:41 by mpierant          #+#    #+#             */
+/*   Updated: 2025/10/25 03:05:05 by mpierant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef HUMANA_HPP
-# define HUMANA_HPP
+#ifndef HARL_HPP
+# define HARL_HPP
 
-#include <string>
-#include "Weapon.hpp"
-
-class   HumanA
+class   Harl
 {
     private:
-    std::string name;
-    Weapon &wpREF;
+    void    debug( void );
+    void    info( void );
+    void    warning( void );
+    void    error( void );
 
     public:
-    HumanA(std::string name, Weapon &wp);
-    void    attack(void);
-};
+    void    complain( std::string level );
+}
 
 #endif

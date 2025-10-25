@@ -6,9 +6,12 @@
 /*   By: mpierant <marvin@student.42roma.it>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 22:49:12 by mpierant          #+#    #+#             */
-/*   Updated: 2025/10/24 23:29:50 by mpierant         ###   ########.fr       */
+/*   Updated: 2025/10/25 03:06:30 by mpierant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#ifndef HUMANB_HPP
+# define HUMANB_HPP
 
 class   HumanB
 {
@@ -21,3 +24,5 @@ class   HumanB
     void    attack(void);
     void    setWeapon(Weapon &wp);
 };
+
+#endif

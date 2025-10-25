@@ -1,30 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   HumanA.hpp                                         :+:      :+:    :+:   */
+/*   Harl.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mpierant <marvin@student.42roma.it>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/24 22:47:50 by mpierant          #+#    #+#             */
-/*   Updated: 2025/10/25 03:06:07 by mpierant         ###   ########.fr       */
+/*   Created: 2025/10/25 03:07:53 by mpierant          #+#    #+#             */
+/*   Updated: 2025/10/25 03:07:54 by mpierant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef HUMANA_HPP
-# define HUMANA_HPP
-
-#include <string>
-#include "Weapon.hpp"
-
-class   HumanA
-{
-    private:
-    std::string name;
-    Weapon &wpREF;
-
-    public:
-    HumanA(std::string name, Weapon &wp);
-    void    attack(void);
-};
-
-#endif
