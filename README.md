@@ -289,13 +289,6 @@ Each exercise produces its own executable. Navigate to the exercise directory an
 ./harlFilter <level>
 ```
 
-## Submission and Peer Evaluation
-
-- Submit your project through the designated Git repository.
-- Only the files within your Git repository will be evaluated during defense.
-- Double-check that all file names and structures match the subject requirements.
-- Ensure your Makefile compiles without relinking and includes all required rules.
-
 ## Acknowledgments
 
 - Thanks to the 42 community, mentors, and fellow students for their guidance and support.
