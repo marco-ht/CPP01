@@ -271,12 +271,12 @@ Each exercise produces its own executable. Navigate to the exercise directory an
 
 **Exercise 03:**
 ```sh
-./violence
+./weapons
 ```
 
 **Exercise 04:**
 ```sh
-./sed_is_for_losers <filename> <s1> <s2>
+./sed <filename> <s1> <s2>
 ```
 
 **Exercise 05:**
