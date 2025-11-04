@@ -6,7 +6,7 @@
 /*   By: mpierant <marvin@student.42roma.it>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 23:50:39 by mpierant          #+#    #+#             */
-/*   Updated: 2025/10/25 03:13:34 by mpierant         ###   ########.fr       */
+/*   Updated: 2025/11/04 04:23:54 by mpierant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void    ft_replace(std::string line, std::ofstream &outfile, std::string s1, std
 {
     size_t  pos;
     
-    while(line.find(s1) != std::string::npos)
+    while(s1 != "" && line.find(s1) != std::string::npos) //handles s1 == ""
     {
         pos = line.find(s1);
         line.erase(pos, s1.length());
