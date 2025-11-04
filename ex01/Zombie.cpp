@@ -6,7 +6,7 @@
 /*   By: mpierant <marvin@student.42roma.it>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 07:25:20 by mpierant          #+#    #+#             */
-/*   Updated: 2025/10/24 08:22:49 by mpierant         ###   ########.fr       */
+/*   Updated: 2025/11/04 01:52:20 by mpierant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ Zombie::Zombie(std::string name)
 
 Zombie::Zombie()
 {
+    std::cout << "Zombie: created" << std::endl;
 }
 
 Zombie::~Zombie()
