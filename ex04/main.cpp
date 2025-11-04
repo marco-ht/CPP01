@@ -6,7 +6,7 @@
 /*   By: mpierant <marvin@student.42roma.it>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 23:50:39 by mpierant          #+#    #+#             */
-/*   Updated: 2025/11/04 04:23:54 by mpierant         ###   ########.fr       */
+/*   Updated: 2025/11/04 20:24:51 by mpierant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ int main(int argc, char **argv)
     outfile.close();
 }
 
-/* ./program test.txt 000 111
+/* ./sed test.txt 000 111
 
 vim test.txt
 vdhhsdfhshsd
@@ -64,7 +64,7 @@ jnadnj0000ajaonjonqe
 jjava00000nvolnnvnp */
 
 /*  touch nopermission.txt && chmod 000 nopermission.txt 
-    ./program nopermission.txt 000 111
+    ./sed nopermission.txt 000 111
 */
 
 // std::ofstream can't be copied (its copy constructor is private)
