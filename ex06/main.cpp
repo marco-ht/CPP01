@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mpierant <marvin@student.42roma.it>        +#+  +:+       +#+        */
+/*   By: mpierant <mpierant@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/25 03:49:57 by mpierant          #+#    #+#             */
-/*   Updated: 2025/10/25 06:15:01 by mpierant         ###   ########.fr       */
+/*   Updated: 2025/11/05 19:00:29 by mpierant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int main(int argc, char **argv)
     if(argc != 2)
         return(0);
     i = 0;
-    while (argv[1] != str[i] && i < 4)
+    while (i < 4 && argv[1] != str[i])
         i++;
     switch (i)
     {
